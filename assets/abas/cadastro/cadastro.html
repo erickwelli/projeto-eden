@@ -25,33 +25,33 @@
             <h1>Cadastro</h1>
             <span>Inicie seu cadastro para fazer login no ÉDEN!</span>
         </div>
-        <form action="" method="post" name="formulario-cadastro" class="flex coluna centralizar">
+        <form action="" method="post" name="formulario-cadastro" class="flex coluna centralizar" onsubmit="window.open('', '_blank')">
             <fieldset class="flex coluna">
-                <div>
+                <div class="flex coluna">
                     <label for="nome">Nome Completo:</label>
                     <input type="text" id="nome" name="nome" required>
                 </div>
     
-                <div>
+                <div class="flex coluna">
                     <label for="data-nascimento">Data de Nascimento:</label>
                     <input type="text" name="data-nascimento" id="data-nascimento" placeholder="DD/MM/AA" required>
                 </div>
     
-                <div>
+                <div class="flex coluna">
                     <label  for="email">Email:</label>
                     <input type="email" name="email" id="email" placeholder="Digite@seumail.com" required>
     
                 </div>
     
-                <div>
+                <div class="flex coluna">
                     <label for="telefone">Telefone:</label>
-                    <input type="text" name="telefone" id="telefone" placeholder="+55 (xx) xxxxxxxxx" required>
+                    <input type="text" name="telefone" id="telefone" placeholder="(xx) xxxxxxxxx" required>
                 </div>
     
-                <div>
+                <div class="flex coluna">
                     <label for="senha">Senha:</label>
                     <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
-                    <span>No mínimo 8 caracteres</span>
+                    <div>No mínimo 8 caracteres</div>
                 </div>
             </fieldset>    
             <fieldset class="button">
