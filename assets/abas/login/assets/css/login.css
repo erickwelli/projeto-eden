@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #8DB575;
+    height: 100vh;
+}
+
+.container{
+    max-width: 1200px;
+    box-sizing: border-box;
+    gap: 80px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+}
+}
