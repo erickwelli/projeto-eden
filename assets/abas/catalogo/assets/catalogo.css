@@ -1,15 +1,16 @@
 body {
     margin: 0;
-    width: 100%;
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1200px;
+    width: 100%;
 }
 
 header {
     margin: 0;
     padding: 26px 127px;
+    width: 100%;
 }
 
 header div figure {
@@ -22,7 +23,7 @@ header div figure a {
 }
 
 header div div {
-    gap: 430px;
+    gap: 410px;
 }
 
 header div nav ul {
@@ -54,14 +55,14 @@ header menu li {
     list-style: none;
 }
 
-main .imagem {
+.imagem {
     background: url("img/pa-com-terra.png");
     background-repeat: no-repeat;
     height: 712px;
-    width: 100%;
+    width: 1440px;
 }
 
-main .imagem div input {
+.imagem div input {
     background-image: url("img/Frame.png");
     background-position: center right 53px;
     background-repeat: no-repeat;
@@ -75,14 +76,100 @@ main .imagem div input {
     width: 1017.509px;
 }
 
-main .imagem .aba {
-    margin: 72px 0 0 139px
+.imagem .aba {
+    margin: 72px 0 0 139px;
 }
 
-h1, h2, span {
+h1,
+h2,
+span {
     margin: 0;
 }
 
-main h1 {
-    
+.imagem .aba .titulo {
+    color: #FFF;
+    font-family: "Arima";
+    font-size: 96px;
+    font-weight: 600;
+}
+
+.imagem .aba .sub-titulo {
+    gap: 14px;
+    padding-left: 17.60px;
+}
+
+.imagem .aba div a {
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.imagem .aba div span {
+    background: #FFF;
+    height: 25px;
+    width: 2px;
+}
+
+.amarelo {
+    color: #E79E00;
+}
+
+.branco {
+    color: #FFF;
+}
+
+main {
+    width: 100%;
+}
+
+main .filtros {
+    margin: 69px 0 139px 0;
+    max-width: 992px;
+    width: 100%;
+}
+
+main .filtros div {
+    gap: 6px;
+}
+
+main .filtros div h1,
+main .categoria h1 {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+main .filtros div i {
+    width: 12px;
+    height: 4px;
+}
+
+main .busca {
+    width: 100%;
+    gap: 44px;
+}
+
+main .busca strong {
+    font-family: "Outfit";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.verde {
+    color: #4A9B33;
+}
+
+main .busca .categoria {
+    gap: 13.5px;
+}
+
+main .busca .categoria div {
+    background: #F5F5F5;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 63px;
+    padding: 17px 53px;
+    width: 266.935px;
 }
