@@ -7,15 +7,42 @@
     <title>ÉDEN - Login</title>
     <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <body class="flex centralizar">
 </head>
 <body class="flex centralizar">
     <section class="container flex">
-        <section class="titulo-e-formulario flex coluna">
+        <section class="titulo-e-formulario flex coluna centralizar-horizontal">
             <div class="titulo flex coluna">
-                <h1>Bem-Vindo</h1>
+                <h2>Bem-Vindo</h2>
                 <span>Obrigado por retornar ao ÉDEN! estamos felizes em lhe ver novamente</span>
             </div>
-            <form action=".."></form>
+            <form action="../site-principal/site-principal.html" class="flex coluna">
+                <fieldset class="flex coluna">
+                    <div class="flex coluna">
+                        <label for="nome">Usuário:</label>
+                        <input type="email" id="usuario" name="usuario" placeholder="Digite@seuemail.com" required>
+                    </div>
+                    <div class="flex coluna senha">
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                        <i class="fa-solid fa-eye fa-xl"></i>
+                        <div><a href="#">Esqueceu a senha? <strong>Clique aqui</strong></a></div>
+                    </div>
+                </fieldset>
+                <fieldset class="flex centralizar coluna">
+                    <div>Não tem uma conta? <a href="../cadastro/cadastro.html"><strong>Cadastre-se</strong></a></div>
+                    <button type="submit">Login</button>
+                </fieldset>
+                <fieldset class="flex centralizar outros">
+                    <div>Outros:</div>
+                </fieldset>
+            </form> 
+        </section>
+        <section class="fundo flex centralizar coluna">
+            <img src="assets/imgs/logo-eden.png" alt="">
+            <h1>ÉDEN</h1>
+            <span>Estimular Desenvolvimento Ecológico em Natal</span>
         </section>
     </section>
 </body>
