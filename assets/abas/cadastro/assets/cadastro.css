@@ -88,3 +88,19 @@ form fieldset div input{
     background-color: #8CCC7A;
     font-weight: 600;
 }
+
+.senha{
+    position: relative;
+}
+
+.fa-eye{
+    position: absolute;
+    bottom: 38px;
+    right: 8px;
+    animation: grow 1.5s infinite;
+    cursor: pointer;
+}
+
+i:hover {
+    transform: scale(1.1);  /* Aumenta o ícone 20% quando o mouse passa por cima */
+}
