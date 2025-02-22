@@ -10,7 +10,6 @@ body {
 header {
     margin: 0;
     padding: 26px 127px;
-    width: 100%;
 }
 
 header div figure {
@@ -59,7 +58,8 @@ header menu li {
     background: url("img/pa-com-terra.png");
     background-repeat: no-repeat;
     height: 712px;
-    width: 1440px;
+    width: 100%;
+    background-size: 100%;
 }
 
 .imagem div input {
