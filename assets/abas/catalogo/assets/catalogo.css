@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    width: 1440px;
+}
+
+header {
+    margin: 0;
+    padding: 26px 127px;
+}
+
+header div figure {
+    margin: 0;
+}
+
+header div figure a {
+    height: 68px;
+    width: 66px;
+}
+
+header div nav ul {
+    list-style: none;
+}
+
+header menu li {
+    list-style: none;
+}
