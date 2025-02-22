@@ -1,6 +1,10 @@
 body {
     margin: 0;
-    width: 1440px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1440px;
 }
 
 header {
@@ -17,10 +21,40 @@ header div figure a {
     width: 66px;
 }
 
+header div div {
+    gap: 430px;
+}
+
 header div nav ul {
+    gap: 89px;
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header div nav ul li:hover {
+    border-bottom: 2px solid #000;
+}
+
+header div nav ul li a {
+    color: #000;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header menu {
+    gap: 51px;
+    margin: 0;
+    padding: 0;
 }
 
 header menu li {
     list-style: none;
+}
+
+main img {
+    display: block;
+    width: 100%;
 }
