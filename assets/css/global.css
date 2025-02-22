@@ -30,3 +30,11 @@
 .esquerda {
     justify-content: flex-start;
 }
+
+.esquerda-coluna{
+    align-items: flex-start;
+}
+
+.direita-coluna{
+    align-items: flex-end;
+}
