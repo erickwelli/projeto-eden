@@ -21,13 +21,14 @@ a:active, a:focus{
     color: inherit;
 }
 .container{
-    width: 1400px;
+    width: 1200px;
 }
 body, html{
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
+    color: #4D301F;
 }
 header{
     width: 100%;
@@ -37,7 +38,7 @@ header .container{
     font-family: Roboto, sans-serif;
 }
 .navegacao{
-    padding-right: 500px;
+    padding-right: 300px;
 }
 .navegacao ul li a{
     font-size: 18px;
@@ -60,6 +61,213 @@ header .container .navegacao ul{
 
 header .container .icons-navegacao ul{
     gap: 50px;
+}
+
+main .fundo{
+    background-image: url(../imgs/capa.png);
+    width: 100%;
+    height: 950px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #FFF;
+    margin-bottom: 125px;
+}
+
+main .fundo .container{
+    gap: 45px;
+}
+
+main .fundo .container h1{
+    font-size: 90px;
+    font-weight: 700;
+    max-width: 450px;
+    height: 100px;
+    font-family: Arima, sans-serif;
+}
+
+main .fundo .container span{
+    font-family: Roboto, sans-serif;
+    max-width: 450px;
+    text-align: justify;
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+
+main .fundo .container a{
+    background: fixed;
+    color: #FFF;
+    border: 2px solid ;
+    width: 200px;
+    text-align: center;
+    padding: 18px 40px;
+    border-radius: 60px;
+}
+
+main .fundo .container a:hover{
+    transform: scale(1.1);
+}
+
+main .container .transformando-mundos{
+    gap: 90px;
+    width: 100%;
+    margin-bottom: 250px;
+}
+.container .transformando-mundos h3{
+    font-weight: 700;
+    font-size: 32px;
+    font-family: Outfit, sans-serif;
+}
+.container .transformando-mundos h3 strong{
+    color: #4A9B33;
+}
+
+.container .transformando-mundos .valores .valor{
+    color: #4A9B33;
+    gap: 15px;
+}
+
+.transformando-mundos .valores .valor figure{
+    width: 230px;
+    height: 230px;
+    border-radius: 1000px;
+    border: 2px solid #4A9B33;
+}
+
+.transformando-mundos .valores .valor span{
+    font-size: 26px;
+}
+
+main .container .em-destaques{
+    font-weight: 700;
+    margin-bottom: 165px;
+}
+main .container .em-destaques h2{
+    font-size: 44px;
+    font-family: Outfit, sans-serif;
+}
+
+main .container .em-destaques .destaques{
+    gap: 32px 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 165px;
+}
+
+.container .em-destaques .destaques .destaque a{
+    padding: 32px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid #A8A8A8;
+    flex-shrink: 0;
+    gap: 20px;
+}
+
+.em-destaques .destaques .destaque a span{
+    font-size: 24px;
+    color: #4D301F  ;
+    font-family: Arima, sans-serif;
+}
+
+.em-destaques .destaques .destaque a figure{
+    position: relative;
+}
+.fundo-coracao{
+    background-color: rgba(255, 255, 255, 0.6); 
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 50%;
+    z-index: 1;
+    cursor: pointer;
+}
+.em-destaques .fa-heart{
+    position: absolute;
+    right: 32.5px;
+    top: 46px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.vermais{
+    color: #4D301F;
+    text-decoration: underline;
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+}
+
+main .fundo2{
+    background-image: url(../imgs/fundo-ver-feedback.png);
+    width: 100%;
+    height: 950px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #FFF;
+    margin-bottom: 100px;
+}
+
+main .fundo2 .container{
+    gap: 34px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+}
+
+main .fundo2 .container h2{
+    font-size: 64px;
+}
+
+main .fundo2 .container a{
+    color: #377326;
+    font-size: 25px;
+    background-color: #FFF;
+    border-radius: 60px;
+    padding: 15px 160px;
+}
+
+main .container .sobre-plantas{
+    gap: 156px;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 225px;
+}
+
+main .container .sobre-plantas .planta{
+    gap: 200px;
+    width: 100%;
+}
+
+main .container .sobre-plantas .planta:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.container .sobre-plantas .planta figure{
+    box-shadow: 30px 30px 0px rgb(55, 115, 38, 1);
+    height: 470px;
+    width: 470px;
+}
+
+.container .sobre-plantas .planta:nth-child(2) figure{
+    box-shadow: -30px 30px 0px rgb(55, 115, 38, 1);
+    height: 470px;
+    width: 470px;
+}
+
+.sobre-plantas .planta figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.container .sobre-plantas .planta div{
+    width: 500px;
+    gap: 40px;
+}
+
+.sobre-plantas .planta div span{
+    line-height: 1.5;
+    text-align: justify;
+    word-wrap: break-word;
+    color: #000;
 }
 
 footer{
