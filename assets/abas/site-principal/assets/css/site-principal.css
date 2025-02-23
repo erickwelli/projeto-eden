@@ -198,6 +198,10 @@ main .container .em-destaques .destaques{
     font-size: 32px;
 }
 
+.vermais:hover{
+    color: #377326;
+}
+
 main .fundo2{
     background-image: url(../imgs/fundo-ver-feedback.png);
     width: 100%;
@@ -225,7 +229,9 @@ main .fundo2 .container a{
     border-radius: 60px;
     padding: 15px 160px;
 }
-
+main .fundo2 .container a:hover{
+    transform: scale(1.1);
+}
 main .container .sobre-plantas{
     gap: 156px;
     font-family: Roboto, sans-serif;
