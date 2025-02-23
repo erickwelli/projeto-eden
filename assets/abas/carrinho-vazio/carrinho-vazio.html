@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ÉDEN - Carrinhos de Compras</title>
-    <link rel="stylesheet" href="assets/css/compras.css">
+    <title>ÉDEN - Carrinho de Compras</title>
+    <link rel="stylesheet" href="assets/css/carrinho-vazio.css">
     <link rel="stylesheet" href="../../css/global.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
@@ -25,12 +25,26 @@
                 <ul class="flex">
                     <li><a href="#"><i class="fa-solid fa-user fa-xl" style="color: #000000;"></i></a></li>
                     <li><a href="#"><i class="fa-solid fa-heart fa-xl" style="color: #000000;"></i></a></li>
-                    <li><a href="#"><i class="fa-solid fa-cart-shopping fa-xl" style="color: #000000;"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping fa-xl" style="color: #377326;"></i></a></li>
                 </ul>
             </nav>
         </section>
     </header>
-
+    <main class="flex coluna centralizar">
+        <section class="container flex coluna centralizar">
+            <div class="pesquisa flex">
+                <input type="text" name="pesquisa" id="pesquisa">
+                <a href="#"><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000000;"></i></a>
+            </div>
+            <section class="vazio flex coluna centralizar">
+                <figure>
+                    <img src="assets/imgs/carrinho-vazio.png" alt="">
+                </figure>
+                <span>Seu carrinho de compras está vazio</span>
+            </section>
+            <div class="comprar"><a href="../catalogo/catalogo.html">Ir às compras agora</a></div>
+        </section>
+    </main>
     <footer class="flex coluna centralizar">
         <section class="container flex alinhar-extremidades">
             <section class="left flex coluna">
