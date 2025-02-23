@@ -9,7 +9,7 @@ body {
 
 header {
     margin: 0;
-    padding: 26px 127px;
+    padding: 26px 0px;
 }
 
 header div figure {
@@ -57,8 +57,9 @@ header menu li {
 .imagem {
     background: url("img/pa-com-terra.png");
     background-repeat: no-repeat;
-    height: 712px;
+    height: 950px;
     width: 100%;
+    background-size: 100% 100%;
 }
 
 .imagem div input {
@@ -76,7 +77,7 @@ header menu li {
 }
 
 .imagem .aba {
-    margin: 72px 0 0 139px;
+    margin: 72px 0 0 -150px;
 }
 
 h1,
@@ -166,7 +167,7 @@ main .busca .categoria {
 }
 
 main .busca .categoria div {
-    background: #F5F5F5;
+    background: #E0E0E0;
     border-radius: 50px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     height: 63px;

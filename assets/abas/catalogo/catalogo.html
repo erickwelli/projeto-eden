@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -25,13 +25,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+    <link rel="icon" type="image/png" href="assets/img/favicon-32x32.png">
+
     <title>ÉDEN - Catálogo</title>
 </head>
 
 <body class="flex coluna">
-
-    <section class="container flex coluna">
-        <header class="flex centralizar-horizontal">
+    <header class="flex centralizar-horizontal">
+        <section class="container">
             <div class="flex centralizar-vertical alinhar-extremidades">
                 <figure>
                     <img src="assets/img/logo-eden.png" href="../site-principal/site-principal.html" alt="">
@@ -43,151 +46,154 @@
                                 <a href="../site-principal/site-principal.html">HOME</a>
                             </li>
                             <li>
-                                <a href="../comunidade/comunidade.html">COMUNIDADE</a>
+                                <a href="../feedback/">FEEDBACKS</a>
                             </li>
                             <li>
                                 <a href="#">CATÁLOGO</a>
                             </li>
                         </ul>
                     </nav>
-                    <menu class="flex">
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-user"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-heart"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="../compras/compras.html">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </a>
-                        </li>
-                    </menu>
+                        <menu class="flex">
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-user"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../compras/compras.html">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                            </li>
+                        </menu>
+                    </div>
                 </div>
-            </div>
+            </section>
         </header>
 
-        <div class="imagem">
-            <div class="flex centralizar-horizontal">
-                <input type="text">
-            </div>
-            <div class="aba flex coluna">
-                <div class="titulo">Catálogo</div>
-                <div class="sub-titulo flex centralizar-vertical">
-                    <a href="../site-principal/site-principal.html" class="branco">HOME</a>
-                    <span></span>
-                    <a href="../catalogo/catalogo.html" class="amarelo">CATÁLOGO</a>
-                </div>
-            </div>
-        </div>
-
         <main class="flex centralizar coluna">
-            <div class="filtros flex centralizar-vertical alinhar-extremidades">
-                <div class="flex centralizar-vertical">
-                    <h1>Mudas</h1>
-                    <i class="fa-solid fa-chevron-down fa-xs"></i>
+            <div class="imagem">
+                <div class="flex centralizar-horizontal">
+                    <input type="text">
                 </div>
-                <div class="flex centralizar-vertical">
-                    <h1>Suportes/acessórios</h1>
-                    <i class="fa-solid fa-chevron-down fa-xs"></i>
-                </div>
-                <div class="flex centralizar-vertical">
-                    <i class="fa-solid fa-plus"></i>
-                    <h1>Categorias</h1>
-                    <i class="fa-solid fa-chevron-down fa-xs"></i>
-                </div>
+                <section class="container flex centralizar">
+                    <div class="aba flex coluna ">
+                        <div class="titulo">Catálogo</div>
+                        <div class="sub-titulo flex centralizar-vertical">
+                            <a href="../site-principal/site-principal.html" class="branco">HOME</a>
+                            <span></span>
+                            <a href="../catalogo/catalogo.html" class="amarelo">CATÁLOGO</a>
+                        </div>
+                    </div>
+                </section>    
             </div>
+            <section class="container">
+                <div class="filtros flex centralizar-vertical alinhar-extremidades">
+                    <div class="flex centralizar-vertical">
+                        <h1>Mudas</h1>
+                        <i class="fa-solid fa-chevron-down fa-xs"></i>
+                    </div>
+                    <div class="flex centralizar-vertical">
+                        <h1>Suportes/acessórios</h1>
+                        <i class="fa-solid fa-chevron-down fa-xs"></i>
+                    </div>
+                    <div class="flex centralizar-vertical">
+                        <i class="fa-solid fa-plus"></i>
+                        <h1>Categorias</h1>
+                        <i class="fa-solid fa-chevron-down fa-xs"></i>
+                    </div>
+                </div>
 
-            <div class="busca flex esquerda coluna">
-                <strong class="flex">Buscando por:<div class="verde">Jardinagem</div></strong>
-                <div class="categoria flex centralizar-vertical">
-                    <h1>Classificado por:</h1>
-                    <div class="flex centralizar">
-                        <h1>Em alta</h1>
+                <div class="busca flex esquerda coluna">
+                    <strong class="flex">Buscando por:<div class="verde">Jardinagem</div></strong>
+                    <div class="categoria flex centralizar-vertical">
+                        <h1>Classificado por:</h1>
+                        <div class="flex centralizar">
+                            <h1>Em alta</h1>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="plantas flex centralizar alinhar-extremidades">
-                <div class="planta flex centralizar coluna">
-                    <div class="card flex esquerda coluna">
-                        <figure>
-                            <img src="assets/img/Rectangle 43.png" alt="">
-                        </figure>
-                        <div class="nome">Palmeira</div>
+                <div class="plantas flex centralizar alinhar-extremidades">
+                    <div class="planta flex centralizar coluna">
+                        <div class="card flex esquerda coluna">
+                            <figure>
+                                <img src="assets/img/Rectangle 43.png" alt="">
+                            </figure>
+                            <div class="nome">Palmeira</div>
+                        </div>
+                    </div>
+                    <div class="planta flex centralizar coluna">
+                        <div class="card flex esquerda coluna">
+                            <figure>
+                                <img src="assets/img/Rectangle 43.png" alt="">
+                            </figure>
+                            <div class="nome">Palmeira</div>
+                        </div>
+                    </div>
+                    <div class="planta flex centralizar coluna">
+                        <div class="card flex esquerda coluna">
+                            <figure>
+                                <img src="assets/img/Rectangle 43.png" alt="">
+                            </figure>
+                            <div class="nome">Palmeira</div>
+                        </div>
+                    </div>
+                    <div class="planta flex centralizar coluna">
+                        <div class="card flex esquerda coluna">
+                            <figure>
+                                <img src="assets/img/Rectangle 43.png" alt="">
+                            </figure>
+                            <div class="nome">Palmeira</div>
+                        </div>
+                    </div>
+                    <div class="planta flex centralizar coluna">
+                        <div class="card flex esquerda coluna">
+                            <figure>
+                                <img src="assets/img/Rectangle 43.png" alt="">
+                            </figure>
+                            <div class="nome">Palmeira</div>
+                        </div>
+                    </div>
+                    <div class="planta flex centralizar coluna">
+                        <div class="card flex esquerda coluna">
+                            <figure>
+                                <img src="assets/img/Rectangle 43.png" alt="">
+                            </figure>
+                            <div class="nome">Palmeira</div>
+                        </div>
+                    </div>
+                    <div class="planta flex centralizar coluna">
+                        <div class="card flex esquerda coluna">
+                            <figure>
+                                <img src="assets/img/Rectangle 43.png" alt="">
+                            </figure>
+                            <div class="nome">Palmeira</div>
+                        </div>
+                    </div>
+                    <div class="planta flex centralizar coluna">
+                        <div class="card flex esquerda coluna">
+                            <figure>
+                                <img src="assets/img/Rectangle 43.png" alt="">
+                            </figure>
+                            <div class="nome">Palmeira</div>
+                        </div>
+                    </div>
+                    <div class="planta flex centralizar coluna">
+                        <div class="card flex esquerda coluna">
+                            <figure>
+                                <img src="assets/img/Rectangle 43.png" alt="">
+                            </figure>
+                            <div class="nome">Palmeira</div>
+                        </div>
                     </div>
                 </div>
-                <div class="planta flex centralizar coluna">
-                    <div class="card flex esquerda coluna">
-                        <figure>
-                            <img src="assets/img/Rectangle 43.png" alt="">
-                        </figure>
-                        <div class="nome">Palmeira</div>
-                    </div>
-                </div>
-                <div class="planta flex centralizar coluna">
-                    <div class="card flex esquerda coluna">
-                        <figure>
-                            <img src="assets/img/Rectangle 43.png" alt="">
-                        </figure>
-                        <div class="nome">Palmeira</div>
-                    </div>
-                </div>
-                <div class="planta flex centralizar coluna">
-                    <div class="card flex esquerda coluna">
-                        <figure>
-                            <img src="assets/img/Rectangle 43.png" alt="">
-                        </figure>
-                        <div class="nome">Palmeira</div>
-                    </div>
-                </div>
-                <div class="planta flex centralizar coluna">
-                    <div class="card flex esquerda coluna">
-                        <figure>
-                            <img src="assets/img/Rectangle 43.png" alt="">
-                        </figure>
-                        <div class="nome">Palmeira</div>
-                    </div>
-                </div>
-                <div class="planta flex centralizar coluna">
-                    <div class="card flex esquerda coluna">
-                        <figure>
-                            <img src="assets/img/Rectangle 43.png" alt="">
-                        </figure>
-                        <div class="nome">Palmeira</div>
-                    </div>
-                </div>
-                <div class="planta flex centralizar coluna">
-                    <div class="card flex esquerda coluna">
-                        <figure>
-                            <img src="assets/img/Rectangle 43.png" alt="">
-                        </figure>
-                        <div class="nome">Palmeira</div>
-                    </div>
-                </div>
-                <div class="planta flex centralizar coluna">
-                    <div class="card flex esquerda coluna">
-                        <figure>
-                            <img src="assets/img/Rectangle 43.png" alt="">
-                        </figure>
-                        <div class="nome">Palmeira</div>
-                    </div>
-                </div>
-                <div class="planta flex centralizar coluna">
-                    <div class="card flex esquerda coluna">
-                        <figure>
-                            <img src="assets/img/Rectangle 43.png" alt="">
-                        </figure>
-                        <div class="nome">Palmeira</div>
-                    </div>
-                </div>
-            </div>
+            </section>
         </main>
-    </section>
 
     <footer class="flex coluna centralizar">
         <section class="container flex alinhar-extremidades">
@@ -200,7 +206,7 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="../saiba-mais/saiba-mais.html">Sobre</a></li>
                         <li><a href="../catalogo/catalogo.html">Catálogo</a></li>
-                        <li><a href="../comunidade/comunidade.html">Comunidade</a></li>
+                        <li><a href="../feedback/feeback.html">Feedbacks</a></li>
                     </ul>
                 </nav>
             </section>
