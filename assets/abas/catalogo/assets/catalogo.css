@@ -147,8 +147,9 @@ main .filtros div i {
 }
 
 main .busca {
-    width: 100%;
     gap: 44px;
+    margin-bottom: 112px;
+    width: 100%;
 }
 
 main .busca strong {
@@ -172,4 +173,144 @@ main .busca .categoria div {
     height: 63px;
     padding: 17px 53px;
     width: 266.935px;
+}
+
+main .plantas {
+    flex-wrap: wrap;
+    gap: 32px 20px;
+    width: 100%;
+}
+
+main .plantas .planta {
+    border-radius: 20px;
+    border: 2px solid #A8A8A8;
+    background: #FFF;
+    padding: 32px 25px;
+}
+
+main .plantas .planta .card {
+    gap: 15px;
+}
+
+main .plantas .planta .card figure {
+    margin: 0;
+}
+
+main .plantas .planta .card .nome {
+    color: #4D301F;
+    font-family: "Arima";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer {
+    background: #195524;
+    box-sizing: border-box;
+    padding: 140px 0;
+    font-family: "Roboto", sans-serif;
+    color: #FFF;
+    margin-top: 200px;
+    width: 100%;
+}
+
+footer .container section a {
+    color: #FFF;
+}
+
+footer .container .left {
+    width: 8%;
+    gap: 40px;
+}
+
+footer .container .left nav ul {
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+}
+
+footer .container .left nav ul li a {
+    text-decoration: none;
+}
+
+footer .container .middle {
+    width: 40%;
+}
+
+.middle form {
+    width: 100%;
+    font-weight: 700;
+    gap: 40px;
+}
+
+.middle form fieldset {
+    border: none;
+    gap: 10px;
+}
+
+.middle form fieldset div {
+    gap: 15px;
+}
+
+form fieldset div input {
+    background: none;
+    border: none;
+    color: #FFF;
+    outline: none;
+    border-bottom: #FFF solid 2px;
+}
+
+form fieldset div textarea {
+    resize: none;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+input, textarea {
+    outline: none;
+}
+
+form fieldset button {
+    color: #78a55a;
+    font-size: 12px;
+    font-weight: 700;
+    width: 120px;
+    padding: 8px 30px;
+    border-radius: 60px;
+    border: none;
+    cursor: pointer;
+}
+
+form fieldset button:hover {
+    transform: scale(1.1);
+}
+
+footer .container .right {
+    width: 40%;
+    gap: 40px;
+}
+
+footer .container .right .text-rede-social {
+    gap: 40px;
+}
+
+.container .right .text-rede-social .redes-sociais {
+    gap: 20px;
+}
+
+footer .container .right .text-celular {
+    gap: 20px;
+}
+
+.fundo{
+    background-image: url(../imgs/capa.png);
+    width: 100%;
+    height: 950px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.text-rede-social .redes-sociais a:hover i {
+    color: #FFB20B !important;
 }
