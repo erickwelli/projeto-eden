@@ -31,6 +31,7 @@ body, html{
 }
 header{
     width: 100%;
+    border-bottom: #000 1px solid;
 }
 header .container{
     padding: 26px 0;
