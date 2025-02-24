@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 *{
@@ -12,6 +10,19 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0;
+}
+main figcaption{
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+}
+.gap25{
+    gap: 25px;
+}
+.marginbottom100{
+    margin-bottom: 100px;
+}
+h1,h2{
+    color: #195524;
 }
 a{
     text-decoration: none;
@@ -37,15 +48,15 @@ header .container{
     padding: 26px 0;
     font-family: Roboto, sans-serif;
 }
-.navegacao{
-    padding-right: 500px;
+header .container .logo-e-nav{
+    gap: 100px;
 }
+
 .navegacao ul li a{
     font-size: 18px;
     color: #000;
     font-weight: 700;
 }
-
 .navegacao ul li a:hover{
     text-decoration: underline;
     text-decoration-thickness: 2px;
@@ -54,8 +65,56 @@ header .container{
 header .container .navegacao ul{
     gap: 90px;
 }
-
 header .container .icons-navegacao ul{
+    gap: 50px;
+}
+
+main .fundo{
+    background-color: #E7FCE2;
+    height: 430px;
+    margin-bottom: 95px;
+}
+main .fundo .container{
+    gap: 15px;
+}
+.fundo .container .titulo h1{
+    font-family: Arima, sans-serif;
+    font-size: 32px;
+}
+.fundo .container .titulo span{
+    color: #195524;
+    font-family: Outfit, sans-serif;
+    font-size: 24px;
+}
+main .container h2{
+    font-family: Outfit, sans-serif;
+    font-size: 32px;
+}
+main .container span{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    text-align: justify;
+}
+main .container .quem-somos{
+    gap: 80px;
+}
+main .container .colaborador .colaborador-texto{
+    padding: 35px;
+}
+main .container .colaborador h3{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+}
+main .container .colaborador .colaborador1{
+    background-color: #E7FCE2;
+}
+main .container .colaborador .colaborador2{
+    background-color: #E5BAA1;
+}
+main .container .IFRN .IFRN-textos{
     gap: 50px;
 }
 
@@ -67,38 +126,31 @@ footer{
     color: #FFF;
     margin-top: 200px;
 }
-
 footer .container section a{
     color: #FFF;
 }
-
 footer .container .left{
     width: 8%;
     gap: 40px;
 }
-
 footer .container .left nav ul{
     gap: 20px;
 }
 footer .container .middle{
     width: 40%;
 }
-
 .middle form{
     width: 100%;
     font-weight: 700;
     gap: 40px;
 }
-
 .middle form fieldset{
     border: none;
     gap: 10px;
 }
-
 .middle form fieldset div{
     gap: 15px;
 }
-
 form fieldset div input{
     background: none;
     border: none;
@@ -106,7 +158,6 @@ form fieldset div input{
     outline: none;
     border-bottom: #FFF solid 2px;
 }
-
 form fieldset div textarea{
     resize: none;
     padding: 12px;
@@ -114,11 +165,9 @@ form fieldset div textarea{
     border-radius: 10px;
     font-family: Roboto, sans-serif;
 }
-
 input, textarea{
     outline: none;
 }
-
 form fieldset button{
     color: #78a55a;
     font-size: 12px;
@@ -129,7 +178,6 @@ form fieldset button{
     border: none;
     cursor: pointer;
 }
-
 form fieldset button:hover{
     transform: scale(1.1);
 }
@@ -140,19 +188,15 @@ footer .container .right{
 footer .container .right .text-rede-social{
     gap: 40px;
 }
-
 .container .right .text-rede-social .redes-sociais{
     gap: 20px;
 }
-
 footer .container .right .text-celular{
     gap: 20px;
 }
-
 .text-rede-social .redes-sociais a:hover i{
     color: #FFB20B !important;
 }
-
 .fundo{
     background-image: url(../imgs/capa.png);
     width: 100%;
