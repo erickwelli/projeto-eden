@@ -95,7 +95,6 @@ main .container div .feedbacks .link .mais-comentarios a {
 
 main .container div .feedbacks .link .mais-comentarios a:hover {
     border-bottom: 2px solid #4D301F;
-
 }
 
 main .container div .feedbacks .link .usuarios {
@@ -113,7 +112,8 @@ main .container div .feedbacks .link .usuarios .usuario .comentario {
     width: 445px;
 }
 
-main .container div .feedbacks .link .usuarios .usuario .comentario p {
+main .container div .feedbacks .link .usuarios .usuario .comentario p,
+main .container aside .detalhes .comprar .informacoes .local p {
     color: #000;
     font-family: "Roboto";
     font-size: 16px;
@@ -134,6 +134,150 @@ main .container div .feedbacks .link .usuarios .usuario .comentario .cima .ident
     font-family: "Roboto";
     font-size: 18px;
     font-weight: 500;
+}
+
+main .container aside {
+    align-items: flex-start;
+    gap: 50px;
+    max-width: 476px;
+    width: 100%;
+}
+
+main .container aside .detalhes {
+    gap: 40px;
+}
+
+main .container aside .detalhes .descricao {
+    gap: 23px;
+}
+
+main .container aside .detalhes .descricao .nome-planta {
+    color: #151515;
+    font-family: "Arima";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+main .container aside .detalhes .descricao strong,
+main .container aside .detalhes .comprar .informacoes .local p strong,
+main .container aside .cuidados .secoes strong {
+    color: #000;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+main .container aside .detalhes .tamanho {
+    height: 43px;
+}
+
+main .container aside .detalhes span {
+    background: #999;
+    height: 1px;
+    width: 100%;
+}
+
+main .container aside .detalhes .tamanho h3 {
+    font-family: "Arimo";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.verde {
+    color: #4A9B33;
+    font-weight: 500 !important;
+}
+
+main .container aside .detalhes .comprar {
+    gap: 70px;
+}
+
+main .container aside .detalhes .comprar .informacoes {
+    gap: 40px;
+}
+
+main .container aside .detalhes .comprar .informacoes .status {
+    gap: 22px;
+}
+
+main .container aside .detalhes .comprar .informacoes .status div {
+    border-radius: 10px;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    padding: 7px 25px;
+}
+
+main .container aside .detalhes .comprar .informacoes .status div h3,
+main .container aside .detalhes .comprar .compra h3 {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+main .container aside .detalhes .comprar .informacoes .status div:nth-child(1) {
+    color: #FFF;
+    background: #4A9B33;
+}
+
+main .container aside .detalhes .comprar .informacoes .status div:nth-child(2) {
+    border: 1px solid #4A9B33;
+}
+
+main .container aside .detalhes .comprar .informacoes .local {
+    gap: 20px;
+}
+
+main .container aside .detalhes .comprar .informacoes .local p strong,
+main .container aside .cuidados .secoes strong {
+    font-family: "Roboto";
+}
+
+main .container aside .detalhes .comprar .informacoes .local p {
+    line-height: normal;
+}
+
+main .container aside .detalhes .comprar .compra {
+    gap: 10px;
+}
+
+main .container aside .detalhes .comprar .compra div {
+    border-radius: 10px;
+    padding: 7px 25px;
+}
+
+main .container aside .detalhes .comprar .compra div:nth-child(2) {
+    background: #6DB259;
+}
+
+main .container aside .detalhes .comprar .compra div:nth-child(3) {
+    background: #FFB20B;
+}
+
+main .container aside .detalhes .comprar .compra div h1,
+.cuidados h1 {
+    font-family: "Outfit";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+main .container aside .cuidados {
+    gap: 29px;
+}
+
+main .container aside .cuidados i {
+    width: 14px;
+    height: 4px;
+}
+
+main .container aside .cuidados .secoes {
+    background: #E7FCE2;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+main .container aside .cuidados .secoes:nth-child(1) {
+    gap: 10px;
 }
 
 footer {
@@ -222,10 +366,7 @@ footer .container .right .text-rede-social {
     gap: 40px;
 }
 
-.container .right .text-rede-social .redes-sociais {
-    gap: 20px;
-}
-
+.container .right .text-rede-social .redes-sociais,
 footer .container .right .text-celular {
     gap: 20px;
 }
@@ -236,6 +377,12 @@ footer .container .right .text-celular {
     height: 950px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+
+.text-rede-social .redes-sociais a i {
+    color: #FFFFFF;
+    width: 20px;
+    height: 20px;
 }
 
 .text-rede-social .redes-sociais a:hover i {
