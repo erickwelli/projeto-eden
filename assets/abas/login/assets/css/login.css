@@ -9,6 +9,10 @@
     padding: 0;
 }
 
+label{
+    font-size: 18px;
+}
+
 body{
     background-color: #8DB575;
     height: 100vh;
@@ -20,12 +24,12 @@ a{
 }
 
 img{
-    width: 260px;
+    width: 200px;
 }
 .container{
     max-width: 1200px;
     width: 100%;
-    height: 900px;
+    height: 850px;
     box-sizing: border-box;
     border-radius: 10px;
     background-color: #FFF;
@@ -34,13 +38,11 @@ img{
 }
 
 .container .titulo-e-formulario{
-    width: 600px;
     gap: 20px;
 }
 
 .container .titulo-e-formulario .titulo{
     font-family: Arima, sans-serif;
-    gap: 10px;
 }
 
 .container .titulo-e-formulario .titulo h2{
@@ -49,7 +51,7 @@ img{
 }
 
 .container .titulo-e-formulario .titulo span{
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .container .titulo-e-formulario form{
@@ -111,14 +113,13 @@ i:hover {
 .container form fieldset button{
     color: #FFF;
     cursor: pointer;
-    width: 200px;
     border: none;
-    height: 62px;
     border-radius: 50px;
+    padding: 8px 80px;
     background: #4A9B33;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-family: Outfit, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .container form fieldset button:hover{
@@ -126,21 +127,13 @@ i:hover {
     font-weight: 600;
 }
 
-.container form .outros{
-
-}
-
-.container form .outros div{
-    font-size: 24px;
-}
 .container .fundo{
     gap: 40px;
 }
 .container .fundo h1{
     color: #FFF;
     font-family: Arima, sans-serif;
-    font-size: 100px;
-    height: 110px;
+    font-size: 64px;
 }
 
 .container .fundo span{

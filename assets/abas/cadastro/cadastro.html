@@ -28,7 +28,7 @@
             <h1>Cadastro</h1>
             <span>Inicie seu cadastro para fazer login no ÉDEN!</span>
         </div>
-        <form action="../login/login.html" method="post" name="formulario-cadastro" class="flex coluna centralizar" target="_self">
+        <form action="../login/login.html" method="post" name="formulario-cadastro" class="flex coluna target="_self">
             <fieldset class="flex coluna">
                 <div class="flex coluna">
                     <label for="nome">Nome Completo:</label>
@@ -59,11 +59,11 @@
                 <div class="flex coluna senha">
                     <label for="senha">Senha:</label>
                     <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
-                    <i class="fa-solid fa-eye fa-xl"></i>
+                    <i class="fa-solid fa-eye"></i>
                     <div>No mínimo 8 caracteres</div>
                 </div>
             </fieldset>    
-            <fieldset class="button">
+            <fieldset class="button flex centralizar">
                 <button type="submit">Finalizar Cadastro</button>
             </fieldset>
         </form>
