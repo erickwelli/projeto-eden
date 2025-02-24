@@ -73,16 +73,16 @@ header .container div a{
     border-radius: 6px;
     padding: 10px 20px;
 }
-header .container div a:nth-child(1){
+header .container .botoes a:nth-child(1){
     color: #4A9B33;
     background: #DFDFDF;
 }
 
-header .container div a:hover{
+header .container .botoes a:hover{
     transform: scale(1.1);
 }
 
-header .container div a:nth-child(2){
+header .container .botoes a:nth-child(2){
     color: #FFF;
     background-color: #4A9B33;
 }
