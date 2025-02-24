@@ -37,8 +37,8 @@ header .container{
     padding: 26px 0;
     font-family: Roboto, sans-serif;
 }
-.navegacao{
-    padding-right: 300px;
+header .container .logo-e-nav{
+    gap: 100px;
 }
 .navegacao ul li a{
     font-size: 18px;
