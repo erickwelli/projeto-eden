@@ -43,9 +43,9 @@ body, html{
 header{
     width: 100%;
     border-bottom: #000 1px solid;
+    height: 94px;
 }
 header .container{
-    padding: 26px 0;
     font-family: Roboto, sans-serif;
 }
 header .container .logo-e-nav{
@@ -139,18 +139,27 @@ footer .container .left nav ul{
 footer .container .middle{
     width: 40%;
 }
+.middle{
+    gap: 48px;
+}
+.middle h2{
+    font-size: 20px;
+}
 .middle form{
     width: 100%;
     font-weight: 700;
     gap: 40px;
 }
+
 .middle form fieldset{
     border: none;
-    gap: 10px;
+    gap: 20px;
 }
+
 .middle form fieldset div{
-    gap: 15px;
+    gap: 24px;
 }
+
 form fieldset div input{
     background: none;
     border: none;
@@ -158,22 +167,11 @@ form fieldset div input{
     outline: none;
     border-bottom: #FFF solid 2px;
 }
-form fieldset div textarea{
-    resize: none;
-    padding: 12px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    font-family: Roboto, sans-serif;
-}
-input, textarea{
-    outline: none;
-}
 form fieldset button{
-    color: #78a55a;
-    font-size: 12px;
+    color: #377326;
+    font-size: 18px;
     font-weight: 700;
-    width: 120px;
-    padding: 8px 30px;
+    padding: 12px 30px;
     border-radius: 60px;
     border: none;
     cursor: pointer;
