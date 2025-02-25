@@ -32,16 +32,22 @@ body, html{
 header{
     width: 100%;
     border-bottom: #000 1px solid;
-    height: 94px;
+    height: 70px;
 }
 header .container{
     font-family: Roboto, sans-serif;
 }
 header .container .logo-e-nav{
-    gap: 100px;
+    gap: 126px;
 }
+
+header .container figure a img{
+    width: 50px;
+    height: 52px;
+}
+
 .navegacao ul li a{
-    font-size: 18px;
+    font-size: 14px;
     color: #000;
     font-weight: 700;
 }

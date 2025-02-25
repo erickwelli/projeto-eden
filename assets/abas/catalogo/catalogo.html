@@ -31,46 +31,28 @@
     <title>ÉDEN - Catálogo</title>
 </head>
 
-<body class="flex coluna">
-    <header class="flex centralizar-horizontal">
-        <section class="container">
-            <div class="flex centralizar-vertical alinhar-extremidades">
+<body>
+    <header class="flex centralizar">
+        <section class="container flex alinhar-extremidades centralizar-vertical">
+            <div class="logo-e-nav flex centralizar">
                 <figure>
-                    <img src="assets/img/logo-eden.png" href="../site-principal/site-principal.html" alt="">
+                    <a href="../site-principal/site-principal.html"><img src="assets/img/logo-eden.png" alt="logo-eden"></a>
                 </figure>
-                <div class="flex centralizar-vertical">
-                    <nav>
-                        <ul class="flex">
-                            <li class="flex coluna">
-                                <a href="../site-principal/site-principal.html">HOME</a>
-                            </li>
-                            <li>
-                                <a href="../feedback/">FEEDBACKS</a>
-                            </li>
-                            <li>
-                                <a href="#">CATÁLOGO</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <menu class="flex">
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-user"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-heart"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="../compras/compras.html">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </a>
-                        </li>
-                    </menu>
-                </div>
+                <nav class="navegacao">
+                    <ul class="flex">
+                        <li><a href="../site-principal/site-principal.html">HOME</a></li>
+                        <li><a href="../feedback/feeback.html">FEEDBACKS</a></li>
+                        <li><a href="#">CATÁLOGO</a></li>
+                    </ul>
+                </nav>
             </div>
+            <nav class="icons-navegacao flex">  
+                <ul class="flex">
+                    <li><a href="#"><i class="fa-solid fa-user" style="color: #000000;"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-heart" style="color: #000000;"></i></a></li>
+                    <li><a href="../carrinho-cheio/carrinho-cheio.html"><i class="fa-solid fa-cart-shopping" style="color: #000000;"></i></a></li>
+                </ul>
+            </nav>
         </section>
     </header>
 
