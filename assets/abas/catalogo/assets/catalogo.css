@@ -9,7 +9,7 @@ body {
 
 header {
     margin: 0;
-    padding: 26px 0px;
+    padding: 14px 122px;
 }
 
 header div figure {
@@ -41,7 +41,10 @@ header div nav ul li a {
     font-family: "Arimo";
     font-size: 18px;
     font-weight: 700;
+    height: 23px;
+    position: relative;
     text-decoration: none;
+    width: 26px;
 }
 
 header menu {
@@ -133,11 +136,10 @@ main .filtros div {
     gap: 6px;
 }
 
-main .filtros div h1,
-main .categoria h1 {
+main .filtros div h1 {
     color: #000;
     font-family: "Roboto";
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -154,7 +156,7 @@ main .busca {
 
 main .busca strong {
     font-family: "Outfit";
-    font-size: 40px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -170,9 +172,20 @@ main .busca .categoria div {
     background: #E0E0E0;
     border-radius: 50px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    height: 63px;
-    padding: 17px 53px;
-    width: 266.935px;
+    height: 2px;
+    padding: 17px 23px;
+}
+
+main .categoria div h1 {
+    font-weight: 600;
+}
+
+main .categoria h1,
+main .plantas .planta .card .info .preco {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
 }
 
 main .plantas {
@@ -194,13 +207,31 @@ main .plantas .planta .card {
 
 main .plantas .planta .card figure {
     margin: 0;
+    position: relative;
 }
 
-main .plantas .planta .card .nome {
-    color: #4D301F;
-    font-family: "Arima";
-    font-size: 24px;
-    font-weight: 700;
+main .plantas .planta .card figure div {
+    background: rgba(153, 153, 153, 0.40);
+    border-radius: 27.5px;
+    left: 245px;
+    padding: 10px 10px;
+    position: absolute;
+    top: 18px;
+}
+
+main .plantas .planta .card figure div a {
+    color: #FFFFFF;
+}
+
+main .plantas .planta .card .info {
+    gap: 5px;
+}
+
+main .plantas .planta .card .info .nome {
+    color: #000;
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
 }
 
 footer {
@@ -267,7 +298,8 @@ form fieldset div textarea {
     font-family: "Roboto", sans-serif;
 }
 
-input, textarea {
+input,
+textarea {
     outline: none;
 }
 
@@ -303,7 +335,7 @@ footer .container .right .text-celular {
     gap: 20px;
 }
 
-.fundo{
+.fundo {
     background-image: url(../imgs/capa.png);
     width: 100%;
     height: 950px;
