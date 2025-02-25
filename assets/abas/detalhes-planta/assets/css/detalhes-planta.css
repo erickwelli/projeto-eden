@@ -40,7 +40,7 @@ html {
 header {
     width: 100%;
     border-bottom: #000 1px solid;
-    height: 94px;
+    height: 70px;
     margin-bottom: 75px;
 }
 
@@ -48,13 +48,18 @@ header .container {
     font-family: "Roboto", sans-serif;
 }
 
+header .container figure a img {
+    height: 52px;
+    width: 50px;
+}
+
 .navegacao {
     padding-right: 500px;
 }
 
 .navegacao ul li a {
-    font-size: 18px;
     color: #000;
+    font-size: 14px;
     font-weight: 700;
 }
 
@@ -70,6 +75,11 @@ header .container .navegacao ul {
 
 header .container .icons-navegacao ul {
     gap: 50px;
+}
+
+header .container .icons-navegacao ul li a i {
+    height: 22px;
+    width: 20px;
 }
 
 main {
@@ -94,6 +104,9 @@ main .container div .feedbacks .link {
 
 main .container div .feedbacks .link .mais-comentarios a {
     color: #4D301F;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
 }
 
 main .container div .feedbacks .link .mais-comentarios a:hover {
@@ -177,7 +190,7 @@ main .container aside .detalhes .descricao {
 main .container aside .detalhes .descricao .nome-planta {
     color: #151515;
     font-family: "Arima";
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
 }
 
@@ -190,8 +203,8 @@ main .container aside .cuidados .secoes strong {
     font-weight: 400;
 }
 
-main .container aside .detalhes .tamanho {
-    margin-bottom: 40px;
+main .container aside .detalhes .descricao strong {
+    font-weight: 300;
 }
 
 main .container aside .detalhes span {
@@ -206,6 +219,10 @@ main .container aside .detalhes .tamanho h3 {
     font-weight: 400;
 }
 
+main .container aside .detalhes .tamanho .verde {
+    padding-bottom: 40px;
+}
+
 .verde {
     color: #4A9B33;
     font-weight: 500 !important;
@@ -216,7 +233,7 @@ main .container aside .detalhes .comprar {
 }
 
 main .container aside .detalhes .comprar .informacoes {
-    gap: 40px;
+    gap: 60px;
 }
 
 main .container aside .detalhes .comprar .informacoes .status {
@@ -267,25 +284,25 @@ main .container aside .detalhes .comprar .compra {
 
 main .container aside .detalhes .comprar .compra div {
     border-radius: 10px;
-    padding: 10px 16px;
+    padding: 7px 16px;
 }
 
 main .container aside .detalhes .comprar .compra div:nth-child(2) {
     color: #FFF;
     background: #6DB259;
-    width: 250px;
+    width: 200px;
 }
 
 main .container aside .detalhes .comprar .compra div:nth-child(3) {
     color: #2F2F2F;
     background: #FFB20B;
-    width: 120px;
+    width: 80px;
 }
 
 main .container aside .detalhes .comprar .compra div h1,
 .cuidados h1 {
     font-family: "Outfit";
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
 }
 
