@@ -281,6 +281,7 @@ main .container .sobre-plantas{
     gap: 156px;
     font-family: Roboto, sans-serif;
     margin-bottom: 225px;
+    width: 100%;
 }
 
 main .container .sobre-plantas .planta{
@@ -293,15 +294,13 @@ main .container .sobre-plantas .planta:nth-child(2){
 }
 
 .container .sobre-plantas .planta figure{
-    box-shadow: 30px 30px 0px rgb(55, 115, 38, 1);
+    box-shadow: 20px 20px 0px rgb(55, 115, 38, 1);
     height: 300px;
     width: 300px;
 }
 
 .container .sobre-plantas .planta:nth-child(2) figure{
-    box-shadow: -30px 30px 0px rgb(55, 115, 38, 1);
-    height: 470px;
-    width: 470px;
+    box-shadow: -20px 20px 0px rgb(55, 115, 38, 1);
 }
 
 .sobre-plantas .planta figure img{
