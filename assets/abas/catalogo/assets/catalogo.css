@@ -190,7 +190,7 @@ main .plantas .planta .card .info .preco {
 
 main .plantas {
     flex-wrap: wrap;
-    gap: 32px 20px;
+    gap: 52px 32px;
     width: 100%;
 }
 

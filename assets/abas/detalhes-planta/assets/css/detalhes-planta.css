@@ -77,8 +77,8 @@ main {
 }
 
 main .container .imagem-principal {
-    width: 679px;
-    height: 850px;
+    height: 712px;
+    width: 580px;
 }
 
 main .container div .feedbacks {
@@ -152,7 +152,7 @@ main .container div .feedbacks .link .usuarios .usuario .comentario .cima .ident
 main .container aside {
     align-items: flex-start;
     gap: 50px;
-    max-width: 476px;
+    max-width: 574px;
     width: 100%;
 }
 
@@ -181,7 +181,6 @@ main .container aside .cuidados .secoes strong {
 }
 
 main .container aside .detalhes .tamanho {
-    height: 43px;
     margin-bottom: 40px;
 }
 
