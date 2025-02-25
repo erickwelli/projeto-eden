@@ -53,8 +53,8 @@ header .container figure a img {
     width: 50px;
 }
 
-.navegacao {
-    padding-right: 500px;
+header .container .logo-e-nav{
+    gap: 126px;
 }
 
 .navegacao ul li a {
@@ -75,11 +75,6 @@ header .container .navegacao ul {
 
 header .container .icons-navegacao ul {
     gap: 50px;
-}
-
-header .container .icons-navegacao ul li a i {
-    height: 22px;
-    width: 20px;
 }
 
 main {
