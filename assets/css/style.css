@@ -219,15 +219,16 @@ main .container .em-destaques .destaques{
     width: 50px;
     height: 50px;
     position: absolute;
-    right: 20px;
+    border-radius: 28px;
+    background: rgba(153, 153, 153, 0.40);
+    right: 18px;
     top: 20px;
-    border-radius: 50%;
     z-index: 1;
     cursor: pointer;
 }
 .fa-heart{
     position: absolute;
-    right: 32px;
+    right: 31px;
     top: 46px;
     z-index: 2;
     cursor: pointer;
@@ -311,12 +312,18 @@ main .container .sobre-plantas .planta:nth-child(2){
 .container .sobre-plantas .planta div{
     width: 500px;
     gap: 40px;
+        font-family: Roboto, sans-serif;
 }
 
 .sobre-plantas .planta div span{
     line-height: 1.5;
     text-align: justify;
     word-wrap: break-word;
+    font-weight: 300;
+}
+.sobre-plantas .planta div h3{
+    font-weight: 500;
+    font-size: 32px;
 }
 
 footer{
@@ -390,12 +397,7 @@ footer .container .right{
 footer .container .right .text-rede-social{
     gap: 40px;
 }
-
 .container .right .text-rede-social .redes-sociais{
-    gap: 20px;
-}
-
-footer .container .right .text-celular{
     gap: 20px;
 }
 
