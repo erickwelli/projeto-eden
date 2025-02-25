@@ -125,11 +125,10 @@ main .container div .feedbacks .link .usuarios .usuario .comentario {
     width: 445px;
 }
 
-main .container div .feedbacks .link .usuarios .usuario .comentario p,
-main .container aside .detalhes .comprar .informacoes .local p {
+main .container div .feedbacks .link .usuarios .usuario .comentario p {
     color: #000;
     font-family: "Roboto";
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 300;
     line-height: 140%;
 }
@@ -142,11 +141,22 @@ main .container div .feedbacks .link .usuarios .usuario .comentario .cima .ident
     gap: 10px;
 }
 
+main .container div .feedbacks .link .usuarios .usuario .comentario .cima .identificacao img {
+    height: 30px;
+    width: 30px;
+}
+
 main .container div .feedbacks .link .usuarios .usuario .comentario .cima .identificacao h2 {
     color: #000;
     font-family: "Roboto";
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
+}
+
+main .container div .feedbacks .link .usuarios .usuario .comentario .cima .estrelas {
+    gap: 4px;
+    height: 10px;
+    width: 10px;
 }
 
 main .container aside {
@@ -215,16 +225,13 @@ main .container aside .detalhes .comprar .informacoes .status {
 
 main .container aside .detalhes .comprar .informacoes .status div {
     border-radius: 10px;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 500;
-    padding: 7px 25px;
+    padding: 8px 25px;
 }
 
 main .container aside .detalhes .comprar .informacoes .status div h3,
 main .container aside .detalhes .comprar .compra h3 {
     font-family: "Roboto";
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -247,6 +254,10 @@ main .container aside .cuidados .secoes strong {
 }
 
 main .container aside .detalhes .comprar .informacoes .local p {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 300;
     line-height: normal;
 }
 
@@ -322,35 +333,39 @@ footer .container .left nav ul {
 footer .container .middle {
     width: 40%;
 }
-.middle{
+
+.middle {
     gap: 48px;
 }
-.middle h2{
+
+.middle h2 {
     font-size: 20px;
 }
-.middle form{
+
+.middle form {
     width: 100%;
     font-weight: 700;
     gap: 40px;
 }
 
-.middle form fieldset{
+.middle form fieldset {
     border: none;
     gap: 20px;
 }
 
-.middle form fieldset div{
+.middle form fieldset div {
     gap: 24px;
 }
 
-form fieldset div input{
+form fieldset div input {
     background: none;
     border: none;
     color: #FFF;
     outline: none;
     border-bottom: #FFF solid 2px;
 }
-form fieldset button{
+
+form fieldset button {
     color: #377326;
     font-size: 18px;
     font-weight: 700;
