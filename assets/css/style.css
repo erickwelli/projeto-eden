@@ -214,7 +214,6 @@ main .container .em-destaques .destaques {
     padding-bottom: 165px;
 }
 
-
 .container .em-destaques .destaques .destaque {
     padding: 32px 25px;
     border-radius: 10px;
@@ -223,10 +222,15 @@ main .container .em-destaques .destaques {
     gap: 20px;
 }
 
-.em-destaques .destaques .destaque .destaque-texto {
+.em-destaques .destaques .destaque a{
+    gap: 15px;
+}
+
+.em-destaques .destaques .destaque .destaque-texto{
     gap: 4px;
     color: #000;
 }
+
 
 .em-destaques .destaques .destaque h4 {
     font-size: 20px;
@@ -241,7 +245,7 @@ main .container .em-destaques .destaques {
 
 .container .em-destaques .destaque img {
     width: 300px;
-    height: 360px;
+    height: 380px;
 }
 
 .container .em-destaques .destaque:nth-last-child(1) img{
@@ -343,7 +347,7 @@ main .container .sobre-plantas .planta:nth-child(2) {
 }
 
 .container .sobre-plantas .planta figure {
-    box-shadow: 20px 20px 0px rgb(55, 115, 38, 1);
+    box-shadow: 16px 20px 0px rgb(55, 115, 38, 1);
     height: 300px;
     width: 300px;
 }

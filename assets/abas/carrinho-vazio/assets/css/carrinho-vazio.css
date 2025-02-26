@@ -85,8 +85,12 @@ main .container .pesquisa input{
 }
 
 main .container .vazio{
-    gap: 50px;
-    margin-bottom: 350px;
+    gap: 90px;
+    margin-bottom: 120px;
+}
+
+main .container .vazio img{
+    width: 600px;
 }
 
 main .container .vazio span{
@@ -99,10 +103,10 @@ main .container .vazio span{
 main .container .comprar a{
     color: #575757;
     font-family: Outfit, sans-serif;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
     background: #FFB20B;
-    padding: 25px;
+    padding: 18px 40px;
     border-radius: 20px;
 }
 footer{
@@ -111,7 +115,7 @@ footer{
     padding: 140px 0;
     font-family: Roboto, sans-serif;
     color: #FFF;
-    margin-top: 450px;
+    margin-top: 200px;
 }
 
 footer .container section a{
