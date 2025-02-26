@@ -64,7 +64,7 @@ header .container figure a img {
 }
 
 header .container .logo-e-nav {
-    gap: 126px;
+    gap: 100px;
 }
 
 .navegacao ul li a{
@@ -243,20 +243,6 @@ main .container .em-destaques .destaques {
     font-weight: 400;
 }
 
-.container .em-destaques .destaque img {
-    width: 300px;
-    height: 380px;
-}
-
-.container .em-destaques .destaque:nth-last-child(1) img{
-    width: 300px;
-    height: 300px;
-}
-.container .em-destaques .destaque:nth-last-child(2) img{
-    width: 300px;
-    height: 300px;
-}
-
 .em-destaques .destaques .destaque figure {
     position: relative;
     width: 300px;
@@ -398,6 +384,11 @@ footer .container .left {
 footer .container .left nav ul {
     gap: 20px;
 }
+
+.container .left nav ul li a:hover{
+    color: #FFB20B;
+}
+
 
 footer .container .middle {
     width: 40%;

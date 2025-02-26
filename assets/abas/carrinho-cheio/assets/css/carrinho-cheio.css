@@ -38,7 +38,7 @@ header .container{
     font-family: Roboto, sans-serif;
 }
 header .container .logo-e-nav{
-    gap: 126px;
+    gap: 100px;
 }
 
 header .container figure a img{
@@ -251,6 +251,9 @@ footer .container .left{
 }
 footer .container .left nav ul{
     gap: 20px;
+}
+.container .left nav ul li a:hover{
+    color: #FFB20B;
 }
 footer .container .middle{
     width: 40%;

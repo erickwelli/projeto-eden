@@ -257,6 +257,9 @@ footer .container .left{
 footer .container .left nav ul{
     gap: 20px;
 }
+.container .left nav ul li a:hover{
+    color: #FFB20B;
+}
 footer .container .middle{
     width: 40%;
 }
