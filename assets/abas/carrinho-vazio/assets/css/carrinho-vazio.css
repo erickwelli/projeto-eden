@@ -109,6 +109,10 @@ main .container .comprar a{
     padding: 18px 40px;
     border-radius: 20px;
 }
+
+main .container .comprar:hover{
+    transform: scale(1.1);
+}
 footer{
     background: #195524;
     box-sizing: border-box;

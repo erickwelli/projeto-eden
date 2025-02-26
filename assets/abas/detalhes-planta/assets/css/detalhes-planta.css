@@ -329,6 +329,7 @@ main .container aside .cuidados .secoes {
     background: #E7FCE2;
     border-radius: 5px;
     padding: 20px;
+    cursor: pointer;
 }
 
 main .container aside .cuidados .secoes:nth-child(1) {

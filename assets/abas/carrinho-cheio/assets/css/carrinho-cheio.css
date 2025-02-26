@@ -100,6 +100,7 @@ main .container .bloco-produto h2{
 
 .bloco-produto .produtos .produto .produto-info{
     gap: 20px;
+
 }
 
 .produtos .produto .produto-info .produto-texto{
@@ -167,8 +168,10 @@ main .container .bloco-produto h2{
     height: 50px;
     border-radius: 3px;
     border: 2px solid #A8A8A8;
-    background: #B0E5A1;
     cursor: pointer;
+    background-image: url(../imgs/icon-check.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
 }
 
 .produto:nth-child(2) .quadrado{
