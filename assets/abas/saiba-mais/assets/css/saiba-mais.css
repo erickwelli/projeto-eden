@@ -175,6 +175,13 @@ form fieldset div input{
     outline: none;
     border-bottom: #FFF solid 2px;
 }
+
+footer .middle label {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+}
+
 form fieldset button{
     color: #377326;
     font-size: 18px;

@@ -34,16 +34,20 @@ header{
     width: 100%;
     border-bottom: #000 1px solid;
     margin-bottom: 65px;
-    height: 94px;
+    height: 70px;
 }
 header .container{
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 header .container .logo-e-nav{
     gap: 100px;
 }
+header .container .logo-e-nav img {
+    height: 52px;
+    width: 50px;
+}
 .navegacao ul li a{
-    font-size: 18px;
+    font-size: 14px;
     color: #000;
     font-weight: 700;
 }
@@ -284,6 +288,13 @@ form fieldset div input{
     outline: none;
     border-bottom: #FFF solid 2px;
 }
+
+footer .middle label {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+}
+
 form fieldset button{
     color: #377326;
     font-size: 18px;
@@ -308,7 +319,9 @@ footer .container .right .text-rede-social{
 footer .container .right .text-celular{
     gap: 20px;
 }
-
+.text-rede-social .redes-sociais {
+    gap: 26px;
+}
 .text-rede-social .redes-sociais a:hover i{
     color: #FFB20B !important;
 }
