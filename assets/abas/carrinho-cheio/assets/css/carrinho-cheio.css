@@ -137,27 +137,28 @@ main .container .bloco-produto h2{
     border: 1px solid #999;
     border-radius: 5px;
     padding: 5px;
-    width: 50px;
+    width: 70px;
     justify-content: center;
     align-items: center;
     gap: 5px;
 }
 
 .produto-texto .preco-quantidade div button{
+    align-items: center;
     border: none;
     background: transparent;
-    font-size: 18px;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
     color: #4D4D4D;
+    cursor: pointer;
+    font-size: 18px;
+    justify-content: center;
+    padding: 0 4px;
 }
 
 .produto-texto .preco-quantidade div span{
     font-size: 18px;
     border-left: 1px solid #999;
     border-right: 1px solid #999;
-    padding: 0 2px;
+    padding: 0 8px;
     color: #4D4D4D;
 }
 
@@ -282,6 +283,13 @@ form fieldset div input{
     outline: none;
     border-bottom: #FFF solid 2px;
 }
+
+footer .middle label {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+}
+
 form fieldset button{
     color: #377326;
     font-size: 18px;
