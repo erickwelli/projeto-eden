@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÉDEN - Carrinho de Compras</title>
+    <link rel="stylesheet" href="assets/css/carrinho-cheio.css">
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="icon" type="image/png" href="assets/imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="assets/imgs/favicon.ico">
+</head>
+<body>
+    <header class="flex centralizar">    
+        <section class="container flex alinhar-extremidades centralizar-vertical">
+            <div class="logo-e-nav flex centralizar">
+                <figure>
+                    <a href="../site-principal/site-principal.html"><img src="assets/imgs/logo-eden.png" alt="logo-eden"></a>
+                </figure>
+                <nav class="navegacao">
+                    <ul class="flex">
+                        <li><a href="../site-principal/site-principal.html">HOME</a></li>
+                        <li><a href="../feedback/feeback.html">FEEDBACKS</a></li>
+                        <li><a href="../catalogo/catalogo.html">CATÁLOGO</a></li>
+                    </ul>
+                </nav>
+            </div>
+            </nav>
+            <nav class="icons-navegacao flex">  
+                <ul class="flex">
+                    <li><a href="#"><i class="fa-solid fa-user" style="color: #000000;"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-heart" style="color: #000000;"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping" style="color: #377326;"></i></a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main class="flex coluna centralizar">
+        <section class="container flex coluna centralizar">
+            <div class="pesquisa flex centralizar">
+                <input type="text" name="pesquisa" id="pesquisa">
+                <a href="#"><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000000;"></i></a>
+            </div>
+        </section>
+
+        <section class="container flex coluna">
+            <section class="bloco-produto flex coluna">
+                <h2>Seus produtos</h2>
+                <section class="produtos flex coluna">
+                    <section class="produto flex alinhar-extremidades">
+                        <div class="produto-info flex">
+                            <figure>
+                                <img src="assets/imgs/planta-base3.png" alt="planta">
+                            </figure>
+                            <div class="produto-texto flex coluna">
+                                <h3>Amoreira (Morus)</h3>
+                                <p>Os frutos, conhecidos como amoras, são agregados de pequenas drupas que variam em cor, desde o branco até o preto, conforme a variedade.</p>
+                                <span class="status">Disponível</span>
+                                <div class="preco-quantidade flex coluna">
+                                    <span>Valor: R$ 0,00</span>
+                                    <div class="flex">
+                                        <button class="menos">-</button>
+                                        <span class="quantidade">1</span>
+                                        <button class="mais">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="quadrado"></div>
+                    </section>
+                    <section class="produto flex alinhar-extremidades">
+                        <div class="produto-info flex">
+                            <figure>
+                                <img src="assets/imgs/planta-base3.png" alt="planta">
+                            </figure>
+                            <div class="produto-texto flex coluna">
+                                <h3>Jaca (Artocarpus heterophyllus)</h3>
+                                <p>Frutos grandes, com casca espessa e espinhosa, e polpa doce e aromática, consumida in natura ou em diversas preparações culinárias.</p>
+                                <span class="status">Indisponivel</span>
+                                <div class="preco-quantidade flex coluna">
+                                    <span>Valor: R$ 0,00</span>
+                                    <div class="flex">
+                                        <button class="menos">-</button>
+                                        <span class="quantidade">1</span>
+                                        <button class="mais">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="quadrado"></div>
+                    </section>
+                    <section class="produto flex alinhar-extremidades">
+                        <div class="produto-info flex">
+                            <figure>
+                                <img src="assets/imgs/kit-jardinagem.png" alt="planta">
+                            </figure>
+                            <div class="produto-texto flex coluna">
+                                <h3>Kit de jardinagem</h3>
+                                <p>Mantenha seu jardim sempre bonito e bem cuidado com este kit de jardinagem essencial! Ideal para iniciantes e apaixonados por plantas, ele inclui ferramentas resistentes e fáceis de usar, como pazinha, ancinho, tesoura de poda, luvas e regador. Perfeito para plantar, podar e cuidar de flores, hortas e vasos com praticidade. Leve já o seu e transforme seu espaço verde! 🌿✨</p>
+                                <span class="status">Disponível</span>
+                                <div class="preco-quantidade flex coluna">
+                                    <span>Valor: R$ 50,00</span>
+                                    <div class="flex">
+                                        <button class="menos">-</button>
+                                        <span class="quantidade">1</span>
+                                        <button class="mais">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="quadrado"></div>
+                    </section>
+                </section>
+            </section>
+            <div class="comprar flex"><a href="#">Comprar</a></div>
+        </section>
+        <section class="valor-total flex centralizar">
+            <section class="container flex centralizar">
+                <div class="flex coluna">
+                    <h4>Valor Total:</h4>
+                    <span class="valor">R$ 50,00</span>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer class="flex coluna centralizar">
+        <section class="container flex alinhar-extremidades">
+            <section class="left flex coluna">
+                <figure>
+                    <a href="../site-principal/site-principal.html"><img src="assets/imgs/logo-eden-branco.svg" alt="Logo-eden"></a>
+                </figure>
+                <nav>
+                    <ul class="flex coluna">
+                        <li><a href="../site-principal/site-principal.html">Home</a></li>
+                        <li><a href="../saiba-mais/saiba-mais.html">Sobre</a></li>
+                        <li><a href="../catalogo/catalogo.html">Catálogo</a></li>
+                        <li><a href="../feedback/feeback.html">Feedbacks</a></li>
+                        <li><a href="#">Ajuda</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="middle flex coluna">
+                <h2>Conteúdo exclusivo para você!</h2>
+                <form action="#" class="flex coluna">
+                    <fieldset class="flex coluna">
+                        <div class="flex coluna">
+                            <label for="nome">Seu nome:</label>
+                            <input type="text" name="nome" id="nome" required>
+                        </div>
+            
+                        <div class="flex coluna">
+                            <label  for="email">Email:</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                    </fieldset>
+                    <fieldset class="flex">
+                        <button type="submit">Quero receber</button>
+                    </fieldset>
+                </form>
+            </section>
+            <section class="right flex coluna">
+                <div class="text-rede-social flex coluna" >
+                    <h3>Fale Conosco</h3>
+                    <span>Tem alguma dúvida ou sugestão? Entre em contato através das nossas redes sociais!</span>
+                    <div class="redes-sociais flex">
+                        <a href="https://www.instagram.com/_projeto_eden_/" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp fa-xl" style="color: #ffffff;"></i></a>
+                        <a href="#"><i class="fa-solid fa-paper-plane fa-lg" style="color: #ffffff;"></i></a>
+                    </div>
+                    <div class="logos flex alinhar-extremidades">
+                        <figure><a href="https://portal.ifrn.edu.br"><img src="assets/imgs/logo-ifrn 1.png" alt="Logo-IFRN"></a></figure>
+                        <figure><img src="assets/imgs/logo-meg.png" alt="Logo-MEG"></figure>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </footer>
+</body>
+</html>
