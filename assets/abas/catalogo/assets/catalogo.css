@@ -38,6 +38,7 @@ header {
 
 header .container {
     font-family: Roboto, sans-serif;
+    position: relative;
 }
 
 header .container .logo-e-nav {
@@ -75,6 +76,18 @@ header .container .navegacao ul {
 header .container .icons-navegacao ul {
     gap: 50px;
 }
+.notificacao-fundo{
+    position: absolute;
+    background-color: red;
+    width: 14px;
+    height: 14px;
+    border-radius: 50px;
+    color: white;
+    font-size: 8px;
+    top: 12px;
+    right: 10px;
+}
+
 
 .imagem {
     background: url("img/pa-com-terra.png");
@@ -242,7 +255,7 @@ main .plantas .planta .card figure {
 }
 
 main .plantas .planta .card figure img {
-    height: 370px;
+    height: 300px;
     width: 300px;
 }
 
