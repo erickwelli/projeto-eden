@@ -80,6 +80,7 @@ header .container .icons-navegacao ul{
 main .fundo{
     background-color: #E7FCE2;
     height: 430px;
+    width: 100%;
     margin-bottom: 95px;
 }
 main .fundo .container{
@@ -108,23 +109,43 @@ main .container span{
 main .container .quem-somos{
     gap: 80px;
 }
-main .container .colaborador .colaborador-texto{
-    padding: 35px;
-}
-main .container .colaborador h3{
+
+main .container  h3{
     font-size: 20px;
     font-weight: 500;
     font-family: Roboto, sans-serif;
 }
-main .container .colaborador .colaborador1{
-    background-color: #E7FCE2;
+
+main .container .secao-colaboradores{
+    gap: 45px;
 }
-main .container .colaborador .colaborador2{
-    background-color: #E5BAA1;
+
+.secao-colaboradores .colaboradores .viveiro{
+    width: 100%;
+    position: relative;
 }
-main .container .IFRN .IFRN-textos{
-    gap: 50px;
+
+.secao-colaboradores .colaboradores .viveiro .paragrafo-viveiro{
+    width: 580px;
 }
+
+.secao-colaboradores .colaboradores .viveiro figure:nth-child(2){
+    width: 346px;
+    height: 460px;
+    align-self: flex-end;
+}
+
+.secao-colaboradores .colaboradores .viveiro figure:last-child{
+    position: absolute;
+    right: 200px;
+    bottom: 140px;
+}
+
+.secao-colaboradores .colaboradores .meg{
+    gap: 45px;
+    margin-bottom: 150px;
+}
+
 
 footer{
     background: #195524;
