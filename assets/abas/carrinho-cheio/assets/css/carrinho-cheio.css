@@ -102,6 +102,11 @@ main .container .bloco-produto h2{
     gap: 20px;
 }
 
+.bloco-produto .produtos .produto .produto-info figure img {
+    height: 370px;
+    width: 300px;
+}
+
 .produtos .produto .produto-info .produto-texto{
     width: 450px;
     line-height: 1.5;
